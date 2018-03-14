@@ -11,8 +11,17 @@ public class Machine {
 
   public Machine(String machineID) {
     this.machineID = machineID;
+    totalMoney = 35d;
   }
 
+  public void setTotalMoney(double totalMoney) {
+    this.totalMoney = totalMoney;
+  }
+  
+  public double getTotalMoney() {
+    return totalMoney;
+  }
+  
   // Add one item at a time
   public void addToList(String item){
     products.add(item);
