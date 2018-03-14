@@ -8,6 +8,10 @@ public class Machine {
   totalMoney = 35d;
   }
   
+  public void setMachineMoney(double incomingCash) {
+    totalMoney = incomingCash;
+  }
+  
   public double getMachineMoney() {
     return totalMoney;
   }
