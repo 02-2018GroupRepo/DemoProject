@@ -39,6 +39,11 @@ public class Machine {
   public int getSize(){
     return products.size();
   }
+
+  public void receivedMessage(){
+    // include conditional to check message status
+    System.out.println("Thanks! Received Confirmation from HomeDepot");
+  }
   
 }
 
